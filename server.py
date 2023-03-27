@@ -24,7 +24,8 @@ async def video_feed(websocket, path):
     cap.release()
 
 # Start the websocket server
-start_server = websockets.serve(video_feed, "localhost", 8765)
+start_server = websockets.serve(video_feed, '100.77.189.76', 8765) #hp
+#start_server = websockets.serve(video_feed, '100.89.155.88', 8765) #epyc
 
 asyncio.get_event_loop().run_until_complete(start_server)
 asyncio.get_event_loop().run_forever()
