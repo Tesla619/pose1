@@ -31,5 +31,3 @@ asyncio.get_event_loop().run_until_complete(start_server)
 asyncio.get_event_loop().run_forever()
 
 # & C:/Users/User/.conda/envs/tfv2/python.exe c:/Users/User/Desktop/Thesis/pose1/client.py
-
-#HELLO
