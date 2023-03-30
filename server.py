@@ -4,7 +4,7 @@ import numpy as np
 import websockets
 
 async def video_feed(websocket, path):
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
 
     while True:
         ret, frame = cap.read()
